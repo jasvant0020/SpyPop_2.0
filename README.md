@@ -25,6 +25,20 @@ This project is for educational and demonstration purposes only. It ensures priv
   - Does NOT upload, share, or send any data externally.
   - Only touches its own project-related files.
 
+## comparison 
+
+| Feature                   | 📝 Original SpyPop | 🎬 SpyPop_2.0 Media (Extended)    |
+| ------------------------- | ------------------ | ----------------------------- |
+| Secret Text Message       | ✅ Supported        | ✅ Supported                   |
+| Secret Images             | ❌ Not Supported    | ✅ Supported                   |
+| Secret Audio              | ❌ Not Supported    | ✅ Supported (`.wav` / `.mp3`) |
+| Countdown Self-Destruct   | ✅ Yes              | ✅ Improved                    |
+| Owner Override (`007`)    | ✅ Yes              | ✅ Yes                         |
+| Self-Deleting Executable  | ✅ Yes              | ✅ Yes                         |
+| Antivirus False Positives | ⚠️ Possible        | ⚠️ Possible                   |
+| Educational Purpose       | ✅ Yes              | ✅ Yes                         |
+
+
 ## 📂 File Structure
 
     SpyPop/
@@ -39,7 +53,8 @@ This project is for educational and demonstration purposes only. It ensures priv
 ### Step 1: Encrypt a Secret
 
 - Run main_media.py
-``` python main_media.py
+```
+python main_media.py
 ```
 - Choose:
   - 1.Text → type your secret message.
@@ -60,7 +75,8 @@ This project is for educational and demonstration purposes only. It ensures priv
 ### 🔹 Step 3: View Secret (Popup)
 
 - Recipient runs:
-```python secret_media.py
+```
+python secret_media.py
 ```
   - Popup opens showing message / image / audio.
   - Countdown starts.
@@ -76,9 +92,11 @@ This project is for educational and demonstration purposes only. It ensures priv
 ## 🛠 Building .exe
 
 - You can convert secret_media.py into .exe using PyInstaller:
-```pip install pyinstaller
 ```
-```pyinstaller --onefile --noconsole secret_media.py
+pip install pyinstaller
+```
+```
+pyinstaller --onefile --noconsole secret_media.py
 ```
 
 - Output will be in the dist/ folder as secret_media.exe.
@@ -98,16 +116,6 @@ This project is for educational and demonstration purposes only. It ensures priv
 
 This project is licensed under the MIT License
 
-| Feature                   | 📝 Original SpyPop | 🎬 SpyPop Media (Extended)    |
-| ------------------------- | ------------------ | ----------------------------- |
-| Secret Text Message       | ✅ Supported        | ✅ Supported                   |
-| Secret Images             | ❌ Not Supported    | ✅ Supported                   |
-| Secret Audio              | ❌ Not Supported    | ✅ Supported (`.wav` / `.mp3`) |
-| Countdown Self-Destruct   | ✅ Yes              | ✅ Improved                    |
-| Owner Override (`007`)    | ✅ Yes              | ✅ Yes                         |
-| Self-Deleting Executable  | ✅ Yes              | ✅ Yes                         |
-| Antivirus False Positives | ⚠️ Possible        | ⚠️ Possible                   |
-| Educational Purpose       | ✅ Yes              | ✅ Yes                         |
 
 
 
