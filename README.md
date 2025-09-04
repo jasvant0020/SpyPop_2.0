@@ -104,9 +104,9 @@ pyinstaller --onefile --noconsole secret_media.py
 
 🎥 [Watch the video here](https://drive.google.com/file/d/1cGmY1VHm9Gq3FvolqnIUvA6NN2xUCJU7/view?usp=sharing)
 
-![Detection in Action](demo1.png) <!-- Replace with your actual demo GIF or screenshot -->
-![Detection in Action](demo2.png)
-![Detection in Action](demo3.png)
+![Detection in Action](assets/demo1.png) <!-- Replace with your actual demo GIF or screenshot -->
+![Detection in Action](assets/demo2.png)
+![Detection in Action](assets/demo3.png)
 
 ## ⚖️ Disclaimer
 
