@@ -42,11 +42,8 @@ This project is for educational and demonstration purposes only. It ensures priv
 ## 📂 File Structure
 
     SpyPop/
-    │── main.py             # Original SpyPop (text only)
-    │── secret.py           # Original SpyPop popup
     │── main_media.py       # Extended version – encryption for text/image/audio
     │── secret_media.py     # Extended popup – decryption & display/play
-    │── demo.png            # (Optional) demo screenshot
 
 ## 🚀 How to Use
 
